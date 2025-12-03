@@ -70,7 +70,7 @@ const Dock = () => {
                 aria-label={name}
                 data-tooltip-id="dock-tooltip"
                 data-tooltip-content={name}
-                datatooltip-delay-show={150}
+                data-tooltip-delay-show={150}
                 disabled={!canOpen}
                 onClick={() => toggleApp({ id, canOpen })}
                 >
